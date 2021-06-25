@@ -60,3 +60,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Olá dev 👋
+
+Bem vindo ao projeto **pages with laravel** 🤩
+
+Vai ser incrível criarmos esse projeto com Laravel. Borá codar! 🚀 
+
+- **let's go next level together**
+
+[![Instagram Badge](https://img.shields.io/badge/-Gabriel.fernandes.blade-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://https://www.instagram.com/gabrielfernandes87s/)](https://www.instagram.com/gabrielfernandes87s/) 
+[![Instagram Badge](https://img.shields.io/badge/-kaio.rdg-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://https://www.instagram.com/kaio.rdg_02/)](hhttps://www.instagram.com/kaio.rdg_02/)
+[![Instagram Badge](https://img.shields.io/badge/-Anderson.siqueera-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://https://www.instagram.com/andersonsiqueera/)](https://www.instagram.com/andersonsiqueera/)
+
