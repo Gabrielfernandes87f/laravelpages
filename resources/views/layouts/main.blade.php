@@ -7,10 +7,10 @@
         <title>@yield('title')</title>
 
 
-    <link rel="stylesheet" href="/css/carousel.css">
     <link rel="stylesheet" href="/css/main.css">
     </head>
     
+
     <body>
         
         <header class="main">
@@ -63,10 +63,9 @@
                 </nav>
 
                 </div>
-
-                <p class="pcopi"></p>
+                <p></p>
                 <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
-                <p class="pcopi"></p>
+                <p></p>
         </footer>
 
         <script src="/js/javascript.js"></script>
