@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/github', function () {
+    return view('github');
+});
+
+Route::get('/login', function () {
+    return view('sign-in');
+});

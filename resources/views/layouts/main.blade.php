@@ -27,11 +27,12 @@
                       <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" href="#">Contato</a>
+                      <a class="nav-link active" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link Active" href="#" tabindex="-1" aria-disabled="true">Login</a>
-                    </li>
+                        <a class="nav-link active" href="#">Login</a>
+                      </li>
+                    
                   </ul>
                   <form class="d-flex">
                   </form>
