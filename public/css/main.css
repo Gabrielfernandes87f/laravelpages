@@ -91,8 +91,9 @@ li{
 }
 
 .fixed-bottom{
-    height: 50px;
-    padding-top: 1em;
+    height: 55px;
+    padding-top: .7em;
+    padding-bottom: 2em;
 }
 
 .container {
