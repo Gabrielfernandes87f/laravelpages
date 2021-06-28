@@ -6,11 +6,13 @@
 
         <title>@yield('title')</title>
 
-
-    <link rel="stylesheet" href="/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/carousel.css">
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     
-
     <body>
         
         <header class="main">
@@ -31,8 +33,8 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Login</a>
-                      </li>
-                    
+                    </li>
+                   
                   </ul>
                   <form class="d-flex">
                   </form>
@@ -41,34 +43,15 @@
             </nav>
         </header>
 
-        <footer class="bottom">
+        <main class="container">
+          @yield('content')
+            
+          
+        </main>
 
-            <div class="contato">
-                <h3 class="h3">Contato</h3>
-                <p class="p">Gabrielfernandesfotografias@outlook.com</p>
-                <p class="p">(83) 9 9672-4226</p>
-                </div>
-                <div class="eu"><img src="https://gabrielfernandesweb.online/wp-content/uploads/2021/06/eu-aqui-300x300.jpg" alt=""></div>
-                <div class="acessos">
-                <h3 class="h3">Acessos</h3>
-
-                <nav class="nav-footer">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Minha Conta</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Produtos</a></li>
-                        <li><a href="#">Store</a></li>
-                        <li><a href="#">Feedback</a></li>
-                    </ul>
-                </nav>
-
-                </div>
-                <p></p>
+        <footer class="fixed-bottom">
                 <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
-                <p></p>
         </footer>
-
         <script src="/js/javascript.js"></script>
         <script src="/js/bootstrap.js"></script>
         
