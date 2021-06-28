@@ -1,5 +1,6 @@
 * {
     overflow: hidden;
+    
 }
 
 img {
@@ -14,17 +15,14 @@ img {
 .containermain  {
     display: flex;
     justify-content: center;
-   
     align-items: center;
     
 }
 
 .admin {
-    margin-bottom: -1.5em;
-    width: 5.5em;
-    height: 5.5em;
-  
     
+    width: 5.5em;
+    height: 5.5em;   
 }
     
 .sig {
@@ -57,8 +55,6 @@ img {
     padding-top: 1em;
     box-shadow: rgba(0, 0, 0, 0.487) 5px 5px 20px -10px ;
     margin-top: 1em;
-    
-
 }
 .for1 img{
     margin-bottom: -.5em;   
@@ -81,7 +77,7 @@ img {
 }
 
 .check{
-    margin-left: 5em;
+    margin-left: 1em;
     width: 7em;
 }
 
@@ -147,4 +143,8 @@ input {
 .admin {
     margin-left: -2em;
     
+}
+
+body{
+    background-color: #00c3ff5d;
 }
