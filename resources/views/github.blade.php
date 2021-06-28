@@ -78,12 +78,6 @@
                 
                 Aqui vamos trabalhar os conceitos essenciais para que você consiga entender e utilizar o Git minimamente bem para trabalhar num projeto de TI.
             </p>
-        
-            <h1>O que é Git?</h1>
-        
-            <p>
-                Git é um sistema de controle de versão. Com ele é possível que vários desenvolvedores contribuam no desenvolvimento de um mesmo sistema sem o risco de perder arquivos ou linhas de código. Com Git é possível manter um histórico de alterações do projeto e descentralizar o processo de desenvolvimento.
-            </p>
          
             <h1>Por que Git?</h1>
      
@@ -122,6 +116,11 @@
             <p>
                 Algo que confunde muitos iniciantes em Git é o conceito de workflow, ou fluxo de trabalho. Não existe regra universal para quando um novo branch deve ser criado, quando o desenvolvedor deve realizar commits ou até mesmo realizar um merge, tudo isso é definido em conjunto pela equipe de desenvolvimento, esse conjunto de regras é chamado de workflow. Então é muito importante procurar entender o workflow da equipe em que se vai trabalhar, só assim o desenvolvedor saberá em qual branch ele deve trabalhar, em qual branch ele vai fazer merge de suas alterações e quando ele deve fazer commits e merges.
             </p>
+            
+            <h1>resolvendo conflitos</h1>
+
+            <p>git commit -m "Merge conflict resolution"</p>
+
 
 
             
