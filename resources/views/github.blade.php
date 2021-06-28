@@ -121,6 +121,44 @@
 
             <p>git commit -m "Merge conflict resolution"</p>
 
+            <ul> 
+                <h1 style="text-align: center">git merge - no-ff</h1>
+                <h2 style="font-size: 16pt">para resolver o erro de merge abaixo use o comado do "git merge - no-ff"</h2>
+                <ul>
+                    <li>
+                        $ git push -u origin main
+                        To github.com:Gabrielfernandes87f/laravelpages.git
+                        ! [rejected]        main -> main (fetch first)
+                        error: failed to push some refs to 'github.com:Gabrielfernandes87f/laravelpages.git'
+                        hint: Updates were rejected because the remote contains work that you do
+                        hint: not have locally. This is usually caused by another repository pushing
+                        hint: to the same ref. You may want to first integrate the remote changes
+                        hint: (e.g., 'git pull ...') before pushing again.
+                        hint: See the 'Note about fast-forwards' in 'git push --help' for details.<br>
+                        <hr>
+                        $ git pull
+                        remote: Enumerating objects: 5, done.
+                        remote: Counting objects: 100% (5/5), done.
+                        remote: Compressing objects: 100% (3/3), done.
+                        remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+                        Unpacking objects: 100% (3/3), 670 bytes | 60.00 KiB/s, done.
+                        From github.com:Gabrielfernandes87f/laravelpages
+                           876bfba..9e08480  main       -> origin/main
+                        hint: Waiting for your editor to close the file...
+                        
+                        gabri@DESKTOP-6JO4D7R MINGW64 ~/onedrive/documentos/laravelpages (main|MERGING)
+                        Merge made by the 'recursive' strategy.
+                        git merge - no-ff
+                        merge: - - not something we can merge
+                    </li>
+                </ul>
+            </ul>
+            <h2> para resolver outros conflitos de merge</h2>
+
+            <a href="https://www.geeksforgeeks.org/merge-strategies-in-git/" style="color: black"> entre no site para saber mais sobre merge</a>
+
+
+
 
 
             
