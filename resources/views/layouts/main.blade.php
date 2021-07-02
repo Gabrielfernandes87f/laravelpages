@@ -9,51 +9,85 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/carousel.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/general.css">
+
     </head>
     
     <body>
-        
-        <header class="main">
-           
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button> 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Login</a>
-                    </li>
-                   
-                  </ul>
-                  <form class="d-flex">
-                  </form>
-                </div>
-              </div>
-            </nav>
-        </header>
 
-        <main class="container">
-          @yield('content')
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+        <div class="container-fluid">
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <ul class="bg-nav navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Github</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                  <li><a class="dropdown-item " href="/login">Entrar</a></li>
+                  <li><a class="dropdown-item" href="/sair">Sair</a></li>
+                  <li><a class="dropdown-item" href="/criar-conta">Criar conta</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <main class="container-main">
+          <div class="row">
+            @yield('content')
             
+          </div>
+              <!---
+                      <header class="bg-dark text-white">
+                        <div class="d-flex  flex-md-row align-items-center">
+                          <nav class="nav-right container-fluid d-inline-flex mt-6 mt-md-1 ">
+                            
+                            <a class="me-3 py-2 text-white text-decoration-none" href="#">Home</a>
+                            <a class="me-3 py-2 text-white text-decoration-none" href="/github">Github</a>
+                            <a class="me-3 py-2 text-white text-decoration-none" href="/dasboard">Dasboard</a>
+                            <a class="py-2 text-white text-decoration-none" href="/login">Login</a>
+                          </nav>
+                        </div>
+                      </header>
+            -->
+          
           
         </main>
 
         <footer class="fixed-bottom">
-                <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
+          <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
         </footer>
-        <script src="/js/javascript.js"></script>
-        <script src="/js/bootstrap.js"></script>
         
-    </body>
-</html>
+        <script src="/js/javascript.js"></script>
+        
+      </body>
+      </html>
+
+      <!---
+      <header class="bg-dark text-white">
+        <div class="d-flex  flex-md-row align-items-center">
+          <nav class="nav-right container-fluid d-inline-flex mt-6 mt-md-1 ">
+            
+            <a class="me-3 py-2 text-white text-decoration-none" href="#">Home</a>
+            <a class="me-3 py-2 text-white text-decoration-none" href="/github">Github</a>
+            <a class="me-3 py-2 text-white text-decoration-none" href="/dasboard">Dasboard</a>
+            <a class="py-2 text-white text-decoration-none" href="/login">Login</a>
+          </nav>
+        </div>
+      </header>
+    -->
+
+    

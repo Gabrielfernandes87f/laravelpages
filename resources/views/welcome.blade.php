@@ -74,4 +74,5 @@
     Enfim, estes são os conceitos e comandos básicos para que você comece a trabalhar em uma equipe de desenvolvedores. Utilize muito essa tecnologia e treine bastante os comandos que aprendeu aqui. Acima de tudo, não se esqueça de fazer commits frequentes para ter seu trabalho salvo sempre
 </p>
 
+
 @endsection

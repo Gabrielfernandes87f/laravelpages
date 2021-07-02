@@ -24,3 +24,19 @@ Route::get('/github', function () {
 Route::get('/login', function () {
     return view('sign-in');
 });
+
+Route::get('/dasboard', function () {
+    return view('dasboard');
+});
+
+Route::get('/test', function () {
+    return view('test');
+});
+
+Route::get('/criar-conta', function () {
+    return view('criar-conta');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});

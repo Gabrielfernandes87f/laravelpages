@@ -5,34 +5,38 @@
 @section('content')
 <link rel="stylesheet" href="/css/sign.css">
 
-   <form action="POST" autocomplete="off" class="boxAll">
-            <div class="containermain">
-                <img class="admin" src="/svg/user.svg" alt="adm" srcset="">
-                <div class="subContainer" >
-                    <a class="sig" href="#">Criar conta</a>
-                    <p class="accounts">Ainda nao tem uma conta?</p>
-                    
-                </div>
 
+
+<div class="formulario">   
+    <div class="container-fluid containar-general col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Seja bem vindo!</h1>
+            <p class="col-lg-10 fs-4">você estar entrando em area particular. Nao compartilhe sua senha com ninguém. Se ainda nao tem uma conta, click no botão, "Ainda nao tem uma conta?".</p>
             </div>
-                <div class="for1">
-                    <div class="formulario1">
-                        <img src="/svg/user.svg" alt="" srcset="">
-                        <input type="nome" autocomplete="off" required placeholder="username">
-                    </div>
+            <div class="for-alt col-md-10 mx-auto col-lg-5">
+            <form class="for-aqui p-4 p-md-5 border rounded-3 bg-light">
+                <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+                </div>
+                <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                <hr class="my-4">
+                <a class="cadastrar" href="/criar-conta">Ainda nao tem uma conta?</a>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-                    <div class="formulario2">
-                        <img class="svgPassword" src="/svg/password.svg" alt="" srcset="">
-                        <input type="password" autocomplete="off" required placeholder="password">
-                    </div>
-                    <div class="textos">
-                        <input class="inputcheck" type="checkbox" name="remanber" id="active">
-                        <label  class="check" for="checbox">remenber me</label>
-                        <a class="forgot1" href="#">forgot password?</a>
-                    </div>
-        
-                <input  class="submits" type="submit" value="login">
-
-</form>
 
 @endsection
