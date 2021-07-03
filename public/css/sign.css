@@ -170,6 +170,100 @@ body{
     outline: none;
 }
 
+/*
+@media (min-width: 990px) {
+    .formulario {
+        background-color: blueviolet;
+    }
+    
+}
+
+*/
+
+.for-aqui {
+    background-color: rgba(29, 135, 167, 0.822);
+}
+/*
+@media (max-width: 990px) {
+    .formulario {
+    
+    }
+    .for-aqui {
+        background-color: rgba(29, 135, 167, 0.822);
+        width: 70%;
+        height: 80%;
+        margin: 0 auto;
+        
+    }
+    .w-100 {
+        width: 3em;
+    }
+    .navbar-collapse {
+       
+    }
+    .fs-4 {
+        font-size: 1em !important;
+        
+        width: 20em;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+    .display-4 {
+        font-size: 2em;
+    }
+}
+*/
+/* APLICAR SE FOR ORIZOTAAL*/ 
+
+/*
+@media (orientation: landscape) {
+    .formulario {
+    
+    }
+    .for-aqui {
+        background-color: rgba(29, 135, 167, 0.822);
+        width: 70%;
+        height: 80%;
+        margin: 0 auto;
+        
+    }
+    .w-100 {
+        width: 3em;
+    }
+    .navbar-collapse {
+       
+    }
+    .fs-4 {
+        font-size: 1em !important;
+        
+        width: 20em;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+    .display-4 {
+        font-size: 2em;
+    }
+}
+*/
+/* VAI APLICAR quando tiver no moto retrato */
+@media (orientation: portrait) {
+    .formulario {
+        background-color: blue;
+    
+    }
+    
+}
+
+@media (max-aspect-ratio:  2/1) {
+    .formulario {
+        background-color: rgb(183, 0, 255);
+    
+    }
+    
+}
+
+
+
 /* X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 

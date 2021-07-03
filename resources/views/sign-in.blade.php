@@ -15,7 +15,7 @@
             <p class="col-lg-10 fs-4">você estar entrando em area particular. Nao compartilhe sua senha com ninguém. Se ainda nao tem uma conta, click no botão, "Ainda nao tem uma conta?".</p>
             </div>
             <div class="for-alt col-md-10 mx-auto col-lg-5">
-            <form class="for-aqui p-4 p-md-5 border rounded-3 bg-light">
+            <form class="for-aqui p-4 p-md-5 border rounded-3">
                 <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Email address</label>
