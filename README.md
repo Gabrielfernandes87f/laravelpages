@@ -20,6 +20,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 Bem vindo ao projeto **pages with laravel** 🤩
 
+´Eu estive aqui!´
+
 Vai ser incrível criarmos esse projeto com Laravel. Borá codar! 🚀 
 
 - **let's go next level together**
