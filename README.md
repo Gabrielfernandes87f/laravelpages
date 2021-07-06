@@ -24,4 +24,6 @@ Vai ser incrível criarmos esse projeto com Laravel. Borá codar! 🚀
 
 - **let's go next level together**
 
-[![Instagram Badge](https://img.shields.io/badge/-Gabriel.fernandes.blade-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://https://www.instagram.com/gabrielfernandes87s/)](https://www.instagram.com/gabrielfernandes87s/) 
+[![Instagram Badge](https://img.shields.io/badge/-Gabriel.Fernandes.f-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://www.instagram.com/Gabriel.Fernandes.f/)](https://www.instagram.com/Gabriel.Fernandes.f/) 
+
+[![Instagram Badge](https://img.shields.io/badge/-kaio.rdg_02-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://https://www.instagram.com/kaio.rdg_02/)](https://www.instagram.com/kaio.rdg_02/)
