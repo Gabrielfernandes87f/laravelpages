@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="shortcut icon" href="/icon/iconweb.png" />
         <title>@yield('title')</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/header.css">
         <link rel="stylesheet" href="/css/general.css">
+        <link rel="stylesheet" href="/css.main.css">
 
     </head>
     

@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\userController;
-route::get('/login', [userController::class, 'login']);
+use App\Http\Controllers\UserController;
 
+route::get('/sign', [userController::class, 'sign']);
 
 
 Route::get('/', function () {
@@ -27,9 +27,6 @@ Route::get('/github', function () {
     return view('github');
 });
 
-Route::get('/login', function () {
-    return view('sign-in');
-});
 
 Route::get('/dasboard', function () {
     return view('dasboard');
@@ -39,10 +36,16 @@ Route::get('/test', function () {
     return view('test');
 });
 
-Route::get('/criar-conta', function () {
-    return view('criar-conta');
+Route::get('/cadastro', function () {
+    return view('cadastro');
 });
 
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+

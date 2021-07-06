@@ -1,5 +1,5 @@
 html {
-    overflow: auto;
+    overflow-x: auto;
     
 }
 
@@ -170,6 +170,12 @@ body{
     outline: none;
 }
 
+.login-img {
+    width: 25em;
+    height: 25em;
+    margin-right: 50em;
+}
+
 /*
 @media (min-width: 990px) {
     .formulario {
@@ -262,6 +268,12 @@ body{
     
 }
 
+html {
+
+    background: url("/public/image/backgroud.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 /* X-Small devices (portrait phones, less than 576px)
