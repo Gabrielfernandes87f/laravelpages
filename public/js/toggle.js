@@ -1,8 +1,12 @@
 
-const Toggle = (function () {
-    document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
-      document.querySelector('.offcanvas-collapse').classList.toggle('open')
-    })
-})()
+let navigation = document.querySelector("#navbarSideCollapse");
 
-console.log("olha eu aqui")
+let navbarsExampleDefault = document.querySelector("#navbarsExampleDefault");
+
+navigation.onclick = function () {
+  navbarsExampleDefault.classList.toggle("sidebarhide")
+
+}
+
+
+

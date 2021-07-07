@@ -19,10 +19,10 @@
 
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+          <button class="navbar-toggler p-0 border-0 " type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+          <div class="navbar-collapse offcanvas-collapse " id="navbarsExampleDefault">
             <ul class="bg-nav navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -72,23 +72,10 @@
           <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
         </footer>
         
-        <script src="/js/javascript.js"></script>
+        <script src="/js/bundle.min.js"></script>
         <script src="/js/toggle.js"></script>
       </body>
       </html>
 
-      <!---
-      <header class="bg-dark text-white">
-        <div class="d-flex  flex-md-row align-items-center">
-          <nav class="nav-right container-fluid d-inline-flex mt-6 mt-md-1 ">
-            
-            <a class="me-3 py-2 text-white text-decoration-none" href="#">Home</a>
-            <a class="me-3 py-2 text-white text-decoration-none" href="/github">Github</a>
-            <a class="me-3 py-2 text-white text-decoration-none" href="/dasboard">Dasboard</a>
-            <a class="py-2 text-white text-decoration-none" href="/login">Login</a>
-          </nav>
-        </div>
-      </header>
-    -->
 
     
