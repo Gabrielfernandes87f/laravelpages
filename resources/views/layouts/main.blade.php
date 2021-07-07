@@ -12,35 +12,40 @@
         <link rel="stylesheet" href="/css/header.css">
         <link rel="stylesheet" href="/css/general.css">
         <link rel="stylesheet" href="/css.main.css">
-
+ 
     </head>
     
     <body>
+      
 
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
-          <button class="navbar-toggler p-0 border-0 " type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+          <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse offcanvas-collapse " id="navbarsExampleDefault">
+          <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="bg-nav navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Github</a>
+                <a class="nav-link" href="/github">Github</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="/about">About</a>
               </li>
+
+              
+
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                  <li><a class="dropdown-item " href="/login">Entrar</a></li>
-                  <li><a class="dropdown-item" href="/sair">Sair</a></li>
-                  <li><a class="dropdown-item" href="/criar-conta">Criar conta</a></li>
+                  <li><a class="dropdown-item " href="/about">Entrar</a></li>
+                  <li><a class="dropdown-item" href="/Register">Criar conta</a></li>
                 </ul>
               </li>
+
             </ul>
           </div>
         </div>
@@ -72,7 +77,7 @@
           <p class="copi">Copyright © 2021 Web developer | Powered by Gabriel Fernandes</p>
         </footer>
         
-        <script src="/js/bundle.min.js"></script>
+        <script src="/js/bundle.min.js">ZZZZZ</script>
         <script src="/js/toggle.js"></script>
       </body>
       </html>
