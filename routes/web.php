@@ -48,9 +48,12 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/about', function () {
-    return view('about');
-})->name('privado');
+Route::middleware(['auth:sanctum', 'verified'])->get('/private', function () {
+    return view('private');
+})->name('private');
 
+Route::middleware(['auth:sanctum', 'verified'])->get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
 
 

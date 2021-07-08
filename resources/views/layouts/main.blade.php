@@ -18,7 +18,7 @@
     <body>
       
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+      <nav class="header navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
         <div class="container-fluid">
           <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,10 @@
                 <a class="nav-link" href="/github">Github</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="/private">Private</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/portfolio">Portfolio</a>
               </li>
 
               
