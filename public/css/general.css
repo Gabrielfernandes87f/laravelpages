@@ -46,3 +46,9 @@ footer{
     
     justify-items: center;
 }
+
+.nav-item a:hover {
+    border-radius: 1em;
+    background-color:rgba(98, 0, 255, 0.419);
+    
+}

@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 use App\Http\Controllers\UserController;
+use Illuminate\Auth\Events\Authenticated;
 
 route::get('/sign', [userController::class, 'sign']);
 
@@ -44,16 +45,22 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
+Route::get('/private', function () {
+    return view('private');
+});
+
+
+
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/private', function () {
-    return view('private');
-})->name('private');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/portfolio', function () {
-    return view('portfolio');
-})->name('portfolio');
-
-
+//Route::middleware(['auth:sanctum'])->get('private', function () {
+//    return view('private');
+//})->name('private');
