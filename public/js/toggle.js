@@ -7,3 +7,29 @@ let navbarsExampleDefault = document.querySelector("#navbarsExampleDefault");
 navigation.onclick = function () {
   navbarsExampleDefault.classList.toggle("offcanvas-collapse")
 }
+
+let btn = document.getElementById('btn')
+
+btn.addEventListener('click', function() {
+  const password = document.getElementById('floatingPassword')
+  if (password.type == "password") {
+    password.type = "text"
+    this.style.opacity = "1"
+  } else{
+    password.type = "passaword"
+    this.style.opacity = ".4"
+  }
+})
+
+/* let btn = document.getElementById('btn')
+
+btn.addEventListener('click', function() {
+  const password = document.getElementById('floatingPassword')
+  if (password.type == "password") {
+    password.type = "text"
+    this.style.opacity = "1"
+  } else{
+    password.type = "passaword"
+    this.style.opacity = ".4"
+  }
+}) */

@@ -126,8 +126,8 @@ body {
   }
 }
 .paralax{
-    background-color: rgb(135, 69, 69);
-    background-image: url('/image/backgroud/code.jpg');
+/*  background-color: rgb(135, 69, 69);
+/*  background-image: url('/image/backgroud/code.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -194,22 +194,22 @@ body {
                     <img class="bd-placeholder-img rounded-circle"src="/image/eu.jpg"width="140" height="140"alt="eu" srcset="">
             
                     <h2>Gabriel</h2>
-                    <p>contribuidor.</p>
-                    <p><a class="btn btn-secondary" href="#">Github &raquo;</a></p>
+                    <p>Minha jornada ate aqui</p>
+                    <p><a class="btn btn-secondary" href="github.com/Gabrielfernandes87f">Github &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
-                        <img class="bd-placeholder-img rounded-circle"src="/image/gsf_2304.jpg"width="140" height="140"alt="eu" srcset="">
+                        <img class="bd-placeholder-img rounded-circle"src="/image/DSC_0743.jpg"width="140" height="140"alt="eu" srcset="">
             
-                    <h2>Ohona</h2>
-                    <p>Contribuidora</p>
-                    <p><a class="btn btn-secondary" href="#">github &raquo;</a></p>
+                    <h2>Instagram</h2>
+                    <p>acesse meu instagram</p>
+                    <p><a class="btn btn-secondary" href="https://www.instagram.com/Gabriel.Fernandes.f/">Instagram &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4">
-                        <img class="bd-placeholder-img rounded-circle"src="/image/dsc_0743.jpg"width="140" height="140"alt="eu" srcset="">
+                        <img class="bd-placeholder-img rounded-circle"src="/image/eu.jpg"width="140" height="140"alt="eu" srcset="">
             
-                    <h2>Fernandes</h2>
-                    <p>contribuidor.</p>
-                    <p><a class="btn btn-secondary" href="#">github &raquo;</a></p>
+                    <h2>Site</h2>
+                    <p>Meu primeiro site</p>
+                    <p><a class="btn btn-secondary" href="https://gabrielfernandesweb.online">Gabriel.com &raquo;</a></p>
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
 

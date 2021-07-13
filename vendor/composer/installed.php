@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '97ea5594ee503c818c947c49435d5724991e9f66',
+    'reference' => '1e6a9eb5ecd8295d717bf109cbefa3735886f000',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -490,7 +490,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '97ea5594ee503c818c947c49435d5724991e9f66',
+      'reference' => '1e6a9eb5ecd8295d717bf109cbefa3735886f000',
     ),
     'laravel/sail' => 
     array (
@@ -548,12 +548,12 @@
     ),
     'livewire/livewire' => 
     array (
-      'pretty_version' => 'v2.5.1',
-      'version' => '2.5.1.0',
+      'pretty_version' => 'v2.5.4',
+      'version' => '2.5.4.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'a4ffb135693e7982e5b982ca203f5dc7a7ae1126',
+      'reference' => 'bec4e175c7d1a35e1f0c11ce76341b21e54509dc',
     ),
     'mobiledetect/mobiledetectlib' => 
     array (

@@ -44,6 +44,7 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
                   <li><a class="dropdown-item " href="/dashboard">Entrar</a></li>
                   <li><a class="dropdown-item" href="/Register">Criar conta</a></li>
+                  <li><a class="dropdown-item" onclick="event.preventDefault();this.closest('form').submit();">Sair</a></li>
                 </ul>
               </li>
 

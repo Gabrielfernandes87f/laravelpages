@@ -68,15 +68,16 @@
              @endif
             <div class="for-alt col-md-10 mx-auto col-lg-5">
                 <h1 class="display-4 fw-bold lh-1 mb-3">Seja bem vindo!</h1>
-                <form method="POST" action="{{ route('login') }}">
+                <form method="POST" action="http://127.0.0.1:8000/login" autocomplete="off">
+                 <input type="hidden" name="_token" value="PD1ThczdYyWWW6OGEHO9aL1H9pVo8rVrXlpn84Gj">
                     @csrf
                 <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="email" value="{{ __('Email') }}">Email address</label>
+                <input type="email" class="form-control"id="email" name="email" required="required" autofocus="autofocus" placeholder="name@example.com">
+                <label for="email">E-mail</label>
                 </div>
                 <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="floatingPassword" required autofocus placeholder="Password">
-                <label for="password"value="{{ __('Password') }}">Password</label>
+                <input class="form-control" id="password" type="password" name="password" required="required" autocomplete="off" placeholder="Password">
+                <label for="password">Password</label>
                 </div>
                 <div class="flex items-center justify-end mt-4">
                     @if (Route::has('password.request'))
@@ -84,18 +85,23 @@
                             {{ __('Forgot your password?') }}
                         </a>
                     @endif
-                    <button  for="POST" class="w-100 btn btn-lg btn-primary">
-                        {{ __('entrar') }}
-                    </button>
+                    <button type="submit" class="w-100 btn  btn-primary">Entrar</button>
+
 
                 </div>
+                
+              
 
-                <label>
-                    <input type="checkbox" value="remember-me"{{ __('Remember me') }}> Remember me
+
+                <label for="remember_me">
+                    <input type="checkbox" value="remember-me" id="remember_me" name="remember">
+                    <span class="ml-2 text-sm text-gray-600">Remember me</span>
                 </label>
                 <hr class="my-4">
-                <a class="cadastrar display-5" href="/register">Ainda nao tem uma conta?</a>
+                
+                
             </form>
+            <a class="cadastrar display-5" href="/register">Ainda nao tem uma conta?</a>
             </div>
            
         </div>
