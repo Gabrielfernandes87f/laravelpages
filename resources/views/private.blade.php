@@ -79,6 +79,7 @@
                 <input class="form-control" id="password" type="password" name="password" required="required" autocomplete="off" placeholder="Password">
                 <label for="password">Password</label>
                 </div>
+                
                 <div class="flex items-center justify-end mt-4">
                     @if (Route::has('password.request'))
                         <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
@@ -86,13 +87,8 @@
                         </a>
                     @endif
                     <button type="submit" class="w-100 btn  btn-primary">Entrar</button>
-
-
                 </div>
                 
-              
-
-
                 <label for="remember_me">
                     <input type="checkbox" value="remember-me" id="remember_me" name="remember">
                     <span class="ml-2 text-sm text-gray-600">Remember me</span>
@@ -108,5 +104,7 @@
     </div>
 </div>
 
-
+<!--<input class="form-control" id="profile_photo_path" type="file" name="profile_photo_path" required="required">
+<label for="profile_photo_path"></label>
+-->
 @endsection

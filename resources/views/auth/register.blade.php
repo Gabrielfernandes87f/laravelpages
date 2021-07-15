@@ -10,6 +10,11 @@
             @csrf
 
             <div>
+                <x-jet-label for="profile_photo_path" value="{{ __('profile_photo_path') }}" />
+                <x-jet-input id="aprofile_photo_path" class="block mt-1 w-full" type="file" name="profile_photo_path" :value="old('profile_photo_path')" required autofocus/>
+            </div>
+
+            <div>
                 <x-jet-label for="name" value="{{ __('Name') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>

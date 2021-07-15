@@ -17,3 +17,24 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+/*
+Route::group(['middleware' => ['guest:api']], function() {
+    Route::get('/', function() {
+        return 'olá mundo API';
+    });
+
+    Route::post('login', 'API\LoginController@login');
+});
+
+Route::group(['middleware' => 'auth:api'], function() {
+
+    Route::group('/dados', function () {
+        return 'ola mundo API (Autenticado)';
+    });
+
+    Route::get('logout', 'API\LoginController@logout');
+});
+
+/*
