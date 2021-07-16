@@ -37,14 +37,17 @@
               <li class="nav-item">
                 <a class="nav-link" href="/portfolio">Portfolio</a>
               </li>
-
-
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
                   <li><a class="dropdown-item " href="/dashboard">Entrar</a></li>
-                  <li><a class="dropdown-item" href="/Register">Criar conta</a></li>
-                  <li><a class="dropdown-item" onclick="event.preventDefault();this.closest('form').submit();">Sair</a></li>
+                  <li><a class="dropdown-item" href="/register">Criar conta</a></li>
+                  <li>
+                    <form action="/logout" method="POST">
+                      @csrf
+                      <a class="dropdown-item" onclick="event.preventDefault();this.closest('form').submit();">Sair</a>
+                    </form>
+                  </li>
                 </ul>
               </li>
 
